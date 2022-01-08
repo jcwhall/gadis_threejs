@@ -1,7 +1,7 @@
 # Three JS Flat Text
 GADIS logo from the Spanish/Gallician supermarket
 
-#View demo @ https://jcwhall.github.io/gadis_threejs/
+View demo @ https://jcwhall.github.io/gadis_threejs/
 
 # Setup
 Download [Node.js](https://nodejs.org/en/download/).
