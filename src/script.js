@@ -33,11 +33,12 @@ loader.load('fonts/Kanit-Black_Regular.json', function (font) {
     textMaterial4.side = THREE.DoubleSide;
     textMaterial4.color.setHex(0xB01D3A);
 
-    //Message to display
+    //Message to display + font size
     const message = 'GADIS';
+    const fontSize = 5;
 
     //Create the geometry of the text + center it
-    const shapes = font.generateShapes(message, 5);
+    const shapes = font.generateShapes(message, fontSize);
     const geometry = new THREE.ShapeGeometry(shapes);
     geometry.center();
 
